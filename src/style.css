@@ -1,0 +1,16 @@
+:root {
+  --bg: #0b1424;
+  --fg: #dbe7f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+}

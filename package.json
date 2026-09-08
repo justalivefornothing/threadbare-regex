@@ -1,0 +1,23 @@
+{
+  "name": "threadbare-regex",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A from-scratch regex engine (parser -> Thompson NFA -> Pike VM) that draws the NFA on canvas and animates the live state set.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0"
+  }
+}
