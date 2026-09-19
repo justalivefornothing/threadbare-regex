@@ -1,17 +1,21 @@
 # Threadbare Regex
 
-A from-scratch regex engine: parser → Thompson NFA → simulation.
+From-scratch regex engine: **parser → Thompson NFA → simulation**, with the NFA drawn on canvas and the live state set animated as each input character is consumed.
 
 ## Features
 
 - Hand-written regex parser
 - Thompson NFA construction
 - NFA simulation / matching
-- Educational / visual focus
+- Canvas visualization of states and active set
 
-## Status
+## Run
 
-Core engine scaffolding present. See PLAN.md if available for milestones.
+```bash
+npm install
+npm run dev
+npm test
+```
 
 ## License
 
